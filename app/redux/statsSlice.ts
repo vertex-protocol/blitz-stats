@@ -11,7 +11,7 @@ const initialState: StatsProps = {
   error: false,
 };
 
-const base = 'https://archive.prod.vertexprotocol.com/v1';
+const base = 'https://archive.blast-prod.vertexprotocol.com/v1';
 
 export const fetchData = createAsyncThunk(
   'stats/fetchData',
