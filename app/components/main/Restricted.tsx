@@ -7,9 +7,9 @@ export default function Restricted() {
         </div>
         <div className="px-4 mt-4">
           <p className="text-gray-1 text-xs">
-            It appears that you are accessing Vertex from a Restricted
-            Territory. Unfortunately, we are not able to support users from the
-            following Restricted Territories at this time:
+            It appears that you are accessing Blitz from a Restricted Territory.
+            Unfortunately, we are not able to support users from the following
+            Restricted Territories at this time:
           </p>
         </div>
         <div className="text-gray-1 text-xs mx-4 my-4 border border-gray-2">
@@ -29,7 +29,7 @@ export default function Restricted() {
           <p className="text-gray-1 text-xs">
             Please refer to our{' '}
             <a
-              href="https://vertexprotocol.com/docs/TermsOfUse.pdf"
+              href="https://blitz.exchange/docs/TermsOfUse.pdf"
               target="_blank"
               rel="noreferrer"
               className="underline"

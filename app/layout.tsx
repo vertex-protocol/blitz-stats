@@ -9,8 +9,8 @@ const DMSans = DM_Sans({
 });
 
 export const metadata = {
-  title: 'Vertex Stats',
-  description: 'Dashboards for Vertex metrics. Volumes, new users, TVL...',
+  title: 'Blitz Stats',
+  description: 'Dashboards for Blitz metrics. Volumes, new users, TVL...',
 };
 
 export default function RootLayout({

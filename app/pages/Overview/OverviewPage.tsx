@@ -72,7 +72,7 @@ export default function Overview({
         <ChartContainer>
           <ChartHeader
             title="Trading Volume"
-            text={`The ${intervalText} vs cumulative trading volume on Vertex.`}
+            text={`The ${intervalText} vs cumulative trading volume on Blitz.`}
           />
           <LineBarChart
             dates={dates}
@@ -89,7 +89,7 @@ export default function Overview({
         <ChartContainer>
           <ChartHeader
             title="Users"
-            text={`The ${intervalText} new users vs cumulative users on Vertex.`}
+            text={`The ${intervalText} new users vs cumulative users on Blitz.`}
           />
           <LineBarChart
             dates={dates}
@@ -104,7 +104,7 @@ export default function Overview({
         <ChartContainer>
           <ChartHeader
             title={`${_.capitalize(intervalText)} Active Users`}
-            text={`The ${intervalText} active users on Vertex. Updated hourly on a daily interval at 14:00 UTC.`}
+            text={`The ${intervalText} active users on Blitz. Updated hourly on a daily interval at 14:00 UTC.`}
           ></ChartHeader>
           <LineChart
             dates={dates}
@@ -132,7 +132,7 @@ export default function Overview({
         <ChartContainer>
           <ChartHeader
             title="Liquidations"
-            text={`The ${intervalText} vs cumulative liquidations on Vertex.`}
+            text={`The ${intervalText} vs cumulative liquidations on Blitz.`}
           />
           <LineBarChart
             dates={dates}

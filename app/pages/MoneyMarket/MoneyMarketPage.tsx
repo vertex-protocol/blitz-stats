@@ -88,7 +88,7 @@ export default function MoneyMarket({
         <ChartContainer>
           <ChartHeader
             title="Deposits"
-            text={`The ${intervalText} vs cumulative deposits on Vertex.`}
+            text={`The ${intervalText} vs cumulative deposits on Blitz.`}
           />
           <LineBarChart
             dates={dates}
@@ -103,7 +103,7 @@ export default function MoneyMarket({
         <ChartContainer>
           <ChartHeader
             title="Withdraws"
-            text={`The ${intervalText} vs cumulative withdrawals on Vertex.`}
+            text={`The ${intervalText} vs cumulative withdrawals on Blitz.`}
           />
           <LineBarChart
             dates={dates}

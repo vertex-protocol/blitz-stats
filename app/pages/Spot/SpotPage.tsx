@@ -68,7 +68,7 @@ export default function Spot({
         <ChartContainer>
           <ChartHeader
             title="Spot Trading Volume"
-            text={`The ${intervalText} vs cumulative spot trading volume on Vertex.`}
+            text={`The ${intervalText} vs cumulative spot trading volume on Blitz.`}
           />
           <LineBarChart
             dates={dates}
@@ -83,7 +83,7 @@ export default function Spot({
         <ChartContainer>
           <ChartHeader
             title="# of Spot Trades"
-            text={`The ${intervalText} vs cumulative spot trades on Vertex.`}
+            text={`The ${intervalText} vs cumulative spot trades on Blitz.`}
           />
           <LineBarChart
             dates={dates}

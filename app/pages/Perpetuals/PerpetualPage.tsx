@@ -81,7 +81,7 @@ export default function Perpetual({
         <ChartContainer>
           <ChartHeader
             title="Perp Trading Volume"
-            text={`The ${intervalText} vs cumulative perp trading volume on Vertex.`}
+            text={`The ${intervalText} vs cumulative perp trading volume on Blitz.`}
           ></ChartHeader>
           <LineBarChart
             dates={dates}
@@ -96,7 +96,7 @@ export default function Perpetual({
         <ChartContainer>
           <ChartHeader
             title="Open Interest"
-            text="The open interest on Vertex."
+            text="The open interest on Blitz."
           ></ChartHeader>
           <LineChart
             dates={dates}
@@ -109,7 +109,7 @@ export default function Perpetual({
         <ChartContainer>
           <ChartHeader
             title="# of Perp Trades"
-            text={`The ${intervalText} vs cumulative perp trades on Vertex.`}
+            text={`The ${intervalText} vs cumulative perp trades on Blitz.`}
           ></ChartHeader>
           <LineBarChart
             dates={dates}
