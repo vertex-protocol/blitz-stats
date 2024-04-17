@@ -70,7 +70,7 @@ export default function LineChart({
         showSymbol: false,
         smooth: true,
         itemStyle: {
-          color: '#cdadef',
+          color: '#FF036D',
         },
         tooltip: {
           valueFormatter: function (value: any) {

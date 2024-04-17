@@ -111,8 +111,8 @@ export default function LineBarChart({
         },
         itemStyle: {
           color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-            { offset: 0, color: '#673AB7' },
-            { offset: 1, color: '#512DA8' },
+            { offset: 0, color: '#a80872' },
+            { offset: 1, color: '#930161' },
           ]),
           borderRadius: [2, 2, 0, 0],
         },
@@ -125,7 +125,8 @@ export default function LineBarChart({
         smooth: true,
         yAxisIndex: 1,
         itemStyle: {
-          color: '#cdadef',
+          //
+          color: '#FF036D',
         },
         tooltip: {
           valueFormatter: function (value: any) {
