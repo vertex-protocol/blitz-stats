@@ -5,7 +5,7 @@ export default function NavBar() {
   return (
     <nav className="flex justify-between py-4 px-10 bg-gray-3 border-b border-gray-2 text-white">
       <a href="https://blitz.exchange/" target="_blank">
-        <Image src={blitzLogo} alt="blitz-logo" width={100} />
+        <Image src={blitzLogo} alt="blitz-logo" height={20} />
       </a>
       <div className="flex gap-4">
         <a href="https://app.blitz.exchange/markets" target="_blank">
